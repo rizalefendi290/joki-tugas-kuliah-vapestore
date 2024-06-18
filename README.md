@@ -4,4 +4,4 @@ Instalasi :
 Buat database baru pada MySQL PHPmyAdmin,
 import db_bukawarung,
 buka file db.php,
-sesuaikan $dbname dengan nama database yang kalian buat
+sesuaikan $dbname dengan nama database yang kalian buat.
