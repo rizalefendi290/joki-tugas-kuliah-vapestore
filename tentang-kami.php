@@ -173,27 +173,31 @@
 					<img src="img/pisca.jpg" alt="">
 					<div class="card-body">
 						<h5 class="card-title">Nama : Piska Puji Lestari</h5>
-						<p class="card-text">NPM : 2118320708</p>
+						<p class="card-text">NPM : 211832070100</p>
 						<p class="card-text">Prodi : Pendidikan Teknologi Informasi</p>
-						<p class="card-text">Deskripsi : Terus belajar dan mengembangkan diri dapat memberikan rasa pencapaian dan kepuasan.</p>
+						<p class="card-text">Deskripsi : Akan aku hadapi semuanya, tapi bentar mau tidur dulu.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-4">
 				<div class="card">
-					<img src="produk/barang1.jpg" alt="">
+					<img src="img/kabeb.jpg" alt="">
 					<div class="card-body">
-						<h5 class="card-title">Nama</h5>
-						<p class="card-text">Prodi</p>
+						<h5 class="card-title">Nama : Khabib Khoirul Yazid</h5>
+						<p class="card-text">NPM : 21183207080</p>
+						<p class="card-text">Prodi : Pendidikan Teknologi Informasi</p>
+						<p class="card-text">Deskripsi : Kesadaran bahwa kehidupan dunia hanyalah sementara dan tujuan utama adalah meraih keahagiaan abadi di akhirat</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-4">
 				<div class="card">
-					<img src="produk/barang1.jpg" alt="">
+					<img src="img/andre.jpg" alt="" height="230">
 					<div class="card-body">
-						<h5 class="card-title">Nama</h5>
-						<p class="card-text">Prodi</p>
+						<h5 class="card-title">Nama : Andre Yanto Wicaksono</h5>
+						<p class="card-text">NPM : 21183207083</p>
+						<p class="card-text">Prodi : Pendidikan Teknologi Informasi</p>
+						<p class="card-text">Deskripsi : Menikmati dan menghargai proses pencapaian tujuan, bukan hanya hasil akhirnya, membantu kita tetap termotivasi di sepanjang perjalanan.</p>
 					</div>
 				</div>
 			</div>
@@ -201,7 +205,7 @@
 	</div>
 
 	<!-- Contact Us -->
-	<div class="container section">
+	<div class="container section" style="margin-bottom: 30px;">
 		<h1 class="text-4xl mb-10">Contact Us</h1>
 		<div class="row">
 			<div class="col-6">
@@ -217,18 +221,7 @@
 					<button type="submit" class="btn" style="padding: 0.5rem 1rem; border-radius: 0.375rem; background-color: #e53e3e; color: white; border: none; cursor: pointer;">Kirim</button>
 				</form>
 			</div>
-			<div class="col-6">
-				<div class="row">
-					<div class="col-6">
-						<h1>icon</h1>
-						<h1>icon</h1>
-					</div>
-					<div class="col-6">
-						<h1>email</h1>
-						<h1>phone</h1>
-					</div>
-				</div>
-			</div>
+
 		</div>
 	</div>
 
