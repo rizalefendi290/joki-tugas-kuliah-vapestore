@@ -1,5 +1,16 @@
 <?php 
 	include 'db.php';
+	session_start();
+
+	if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+		echo '<script>';
+		echo 'var isAdmin = false;'; // Set isAdmin menjadi false jika bukan admin
+		echo '</script>';
+	} else {
+		echo '<script>';
+		echo 'var isAdmin = true;'; // Set isAdmin menjadi true jika admin
+		echo '</script>';
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -102,6 +113,17 @@
 			background-color: #c53030;
 		}
 	</style>
+	    <script>
+        // Script JavaScript untuk menampilkan alert jika bukan admin
+        window.onload = function() {
+            // Cek apakah pengguna adalah admin
+            var isAdmin = "<?php echo isset($_SESSION['role']) && $_SESSION['role'] === 'admin' ?>";
+            if (!isAdmin) {
+                alert("Anda tidak diizinkan mengakses halaman ini.");
+                window.location.href = "index.php"; // Ganti dengan halaman yang sesuai
+            }
+        };
+    </script>
 </head>
 <body>
 	<!-- header -->
