@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bukawarung</title>
+	<title>FKA Vape Store</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<style>
@@ -101,7 +101,7 @@
 	<!-- header -->
 	<header>
 		<div class="container">
-			<h1><a href="dashboard.php">Bukawarung</a></h1>
+			<h1><a href="dashboard.php">FKA Vape Store</a></h1>
 			<ul>
 				<li><a href="index.php">Beranda</a></li>
 				<li><a href="dashboard.php">Dashboard</a></li>
@@ -146,7 +146,7 @@
 	<!-- footer -->
 	<footer class="footer">
 		<div class="container">
-			<small>&copy; 2020 - Bukawarung.</small>
+			<small>&copy; 2024 - FKA Vape Store</small>
 		</div>
 	</footer>
 </body>

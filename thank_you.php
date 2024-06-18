@@ -95,7 +95,7 @@ session_start();
 
 <footer>
     <div class="container">
-        <p>&copy; 2024 - Bukawarung</p>
+        <p>&copy; 2024 - FKA Vape Store</p>
     </div>
 </footer>
 

@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <header>
     <div class="container">
-        <h1><a href="index.php">Bukawarung</a></h1>
+        <h1><a href="index.php">FKA Vape Store</a></h1>
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -181,7 +181,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <footer>
     <div class="container">
-        <p>&copy; 2024 - Bukawarung</p>
+        <p>&copy; 2024 - FKA Vape Store</p>
     </div>
 </footer>
 

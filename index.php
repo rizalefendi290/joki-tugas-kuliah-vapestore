@@ -8,13 +8,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bukawarung</title>
+	<title>FKA Vape Store</title>
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<style>
 		body {
 			background-color: #1a202c;
 			color: white;
-			font-family: 'Quicksand', sans-serif;
+			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 			margin: 0;
 			padding: 0;
 		}
@@ -28,6 +28,7 @@
 			padding: 1rem 0;
 		}
         .header {
+			display: flex;
             background-color: #2d3748;
             color: white;
             padding: 1rem 0;
@@ -37,8 +38,9 @@
         .header .container {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content:space-between;
             align-items: center;
+			padding: 10px 20px;
         }
         .header h1 {
             margin: 0;
@@ -46,11 +48,13 @@
             font-weight: bold;
         }
         .header img {
-            width: 60px; /* Ukuran logo disesuaikan */
-            height: 60px;
-            margin-right: 20px; /* Ruang di antara logo dan judul */
+            width: 200px; /* Ukuran logo disesuaikan */
+            height: 200px;
+			align-items: center;
+			margin-left: 200px;
         }
         .navbar ul {
+			justify-content: center;
             list-style-type: none;
             padding: 0;
             margin: 0;
@@ -226,9 +230,9 @@
 	<header class="header">
     <div class="container">
         <div>
-            <img src="img/logo.jpeg" alt="Logo Bukawarung">
-            <h1>Bukawarung</h1>
+            <h1>FKA VapeStore</h1>
         </div>
+		<img src="img/logo.png" alt="Logo Bukawarung" width="300px" height="200px">
         <nav class="navbar">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -340,7 +344,7 @@
 			<h4>No. Hp</h4>
 			<p><?php echo $a->admin_telp ?></p>
 
-			<small>&copy; 2024 - Bukawarung.</small>
+			<small>&copy; 2024 - FKA Vape Store</small>
 		</div>
 	</footer>
 

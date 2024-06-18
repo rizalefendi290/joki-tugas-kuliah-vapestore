@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bukawarung</title>
+	<title>FKA Vape Store</title>
 	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<style>
@@ -135,24 +135,108 @@
 			.col-4, .col-6 {
 				max-width: 100%;
 			}
+		}		.container {
+			width: 90%;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		.header, .search, .footer {
+			background-color: #2d3748;
+			padding: 1rem 0;
+		}
+        .header {
+			display: flex;
+            background-color: #2d3748;
+            color: white;
+            padding: 1rem 0;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header .container {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+			padding: 10px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .header img {
+            width: 150px; /* Ukuran logo disesuaikan */
+            height: 150px;
+			align-items: center;
+			margin-left: 180px;
+        }
+        .navbar ul {
+			justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        .navbar ul li {
+            margin: 0 10px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .navbar ul li a:hover {
+            background-color: #4a5568;
+        }
+		.search form {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.search input {
+			padding: 0.5rem 1rem;
+			margin-right: 0.5rem;
+			border-radius: 0.375rem 0 0 0.375rem;
+			border: none;
+			background-color: #4a5568;
+			color: white;
+		}
+		.search button {
+			padding: 0.5rem 1rem;
+			border-radius: 0 0.375rem 0.375rem 0;
+			background-color: #e53e3e;
+			color: white;
+			border: none;
+			cursor: pointer;
+		}
+		.search button:hover {
+			background-color: #c53030;
 		}
 	</style>
 </head>
 <body>
 	<!-- header -->
 	<header class="header">
-		<div class="container">
-			<h1><a href="index.php" style="text-decoration:none; color:white;">Bukawarung</a></h1>
-			<nav>
-				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="profil.php">Profil</a></li>
-					<li><a href="tentang-kami.php">Contact Us</a></li>
-					<li><a href="produk.php">Produk</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+    <div class="container">
+        <div>
+            <h1>FKA VapeStore</h1>
+        </div>
+		<img src="img/logo.png" alt="Logo Bukawarung" width="300px" height="200px">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="profil.php">Profil</a></li>
+                <li><a href="tentang-kami.php">Contact Us</a></li>
+                <li><a href="produk.php">Produk</a></li>
+                <li><a href="keluar.php">Keluar</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 	<!-- search -->
 	<div class="search">
@@ -229,12 +313,12 @@
 	<div class="footer">
 		<div class="container">
 			<h4>Alamat</h4>
-			<p>Jl. Example No. 123, Jakarta</p>
+			<p>Jl. BAGO No. 123, Tulungagung</p>
 			<h4>Email</h4>
 			<p>example@example.com</p>
 			<h4>No. Hp</h4>
 			<p>+628123456789</p>
-			<small>&copy; 2024 - Bukawarung.</small>
+			<small>&copy; 2024 - FKA Vape Store</small>
 		</div>
 	</div>
 </body>

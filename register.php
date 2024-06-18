@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($stmt->execute()) {
         $_SESSION['message'] = "Registrasi berhasil. Silakan login.";
-        header('Location: login.php');
+        header('Location: index.php');
         exit;
     } else {
         $_SESSION['error'] = "Registrasi gagal. Silakan coba lagi.";
